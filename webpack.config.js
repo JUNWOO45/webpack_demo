@@ -1,21 +1,18 @@
-const webpack = require('webpack');
-var path = require('path');
+const path = require('path');
+
 module.exports = {
   mode: 'development',
   entry: {
     app: './src/index.js',
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist')
   },
   module: {
-
-  },
-  plugins: [],
-  optimization: {},
-  resolve: {
-    modules: ['node_modules'],
-    extensions: ['.js', '.json', '.jsx', '.css'],
-  },
+    rules: [{
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader']
+    }]
+  }
 };
