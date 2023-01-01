@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/JUNWOO45/webpack_demo#readme",
   "dependencies": {
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
@@ -29,8 +29,8 @@
     "@babel/plugin-proposal-class-properties": "^7.5.0",
     "@babel/preset-env": "^7.5.2",
     "babel-loader": "^8.0.6",
-    "css-loader": "^3.0.0",
+    "css-loader": "^6.7.3",
     "jest": "^24.8.0",
-    "style-loader": "^0.23.1"
+    "style-loader": "^3.3.1"
   }
 }
